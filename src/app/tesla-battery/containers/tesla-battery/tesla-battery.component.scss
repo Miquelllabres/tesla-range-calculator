@@ -1,0 +1,50 @@
+.tesla-battery {
+  width: 1050px;
+  margin: 0 auto;
+  h1 {
+    font-family: 'RobotoNormal';
+    font-weight: 100;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 3px;
+  }
+  &__notice {
+    margin: 20px 0;
+    font-size: 15px;
+    color: #666;
+    line-height: 20px;
+  }
+}
+.tesla-climate {
+  float: left;
+  width: 420px;
+  padding: 0 40px;
+  margin: 0 40px 0 0;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.tesla-controls {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 375px){
+  .tesla-battery{
+    width: 375px !important;
+    &__notice {
+      margin:20px !important;
+    }
+  }
+
+
+  .tesla-climate{
+    padding: 0 !important;
+    margin: 0 !important;
+    border:none !important;
+    width: 375px !important;
+    /* border-left: 1px solid #ccc; */
+    /* border-right: 1px solid #ccc; */
+}
+
+
+  }
